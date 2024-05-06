@@ -1,0 +1,23 @@
+{
+  "name": "it-infra",
+  "version": "1.0.0",
+  "description": "backend for it-infra both mobile and desktop",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Miasis",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.3.1",
+    "nodemon": "^3.1.0",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
